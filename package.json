@@ -1,0 +1,26 @@
+{
+  "name": "unsplash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/habeebolamide/unsplash.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/habeebolamide/unsplash/issues"
+  },
+  "homepage": "https://github.com/habeebolamide/unsplash#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.2.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.22"
+  }
+}
