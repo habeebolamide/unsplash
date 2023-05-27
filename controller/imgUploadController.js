@@ -5,7 +5,9 @@ const getImg = (req,res) => {
     if (req.body.filter) {
         const filterRegex = new RegExp(`.*${req.body.filter}.*`, 'i');
         return  Img.find( { img_name: filterRegex}).then((result) => {
-            res.send(result)
+            res.json( {
+                data :result
+            })
         }).catch((err) =>{
             res.send("An Error Occures")
         })
